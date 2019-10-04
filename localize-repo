@@ -186,7 +186,7 @@ ua_AX_HOST=https://mx-packages.ip-connect.vn.ua/antix
 ua_MX_HOST=https://mx-packages.ip-connect.vn.ua/mx
 ua_LOCATION="Ukraine"
 
-ut_AX_HOST=http://repo.antixlinux.com
+ut_AX_HOST=http://la.mxrepo.com/antix
 ut_MX_HOST=http://mxrepo.com/mx
 ut_LOCATION="Utah, USA"
 
