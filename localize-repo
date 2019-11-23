@@ -10,8 +10,8 @@ HOST_PREFIXES="$MIRROR_PREFIXES old_us"
 HOST_TYPES="AX MX"
 US_HOST_LIST="la ut ny"
 
-au1_AX_HOST=http://mx.mirror.ausnetservers.net.au/packages
-au1_MX_HOST=http://mx.mirror.ausnetservers.net.au/packages
+au1_AX_HOST=http://mx.mirror.ausnetservers.net.au/packages/antix
+au1_MX_HOST=http://mx.mirror.ausnetservers.net.au/packages/mx
 au1_LOCATION="Melbourne"
 
 au2_AX_HOST=http://mirror.launtel.net.au/repo/mx
@@ -134,8 +134,12 @@ ny_AX_HOST=http://mirrors.rit.edu/mxlinux/mx-packages/antix
 ny_MX_HOST=http://mirrors.rit.edu/mxlinux/mx-packages/mx
 ny_LOCATION="United States, Rochester NY"
 
-nz_AX_HOST=http://mx.debian.nz/antix
-nz_MX_HOST=http://mx.debian.nz/mx
+#nz_AX_HOST=http://mx.debian.nz/antix
+#nz_MX_HOST=http://mx.debian.nz/mx
+#nz_LOCATION="New Zealand"
+
+nz_AX_HOST=http://mx.mirror.ausnetservers.net.au/packages/antix
+nz_MX_HOST=http://mx.mirror.ausnetservers.net.au/packages/mx
 nz_LOCATION="New Zealand"
 
 ph_AX_HOST=https://mirror.pregi.net/mx-linux-packages/antix
