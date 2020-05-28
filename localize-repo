@@ -22,8 +22,8 @@ at_AX_HOST=http://mirror.digitalnova.at/mxlinux/packages/antix
 at_MX_HOST=http://mirror.digitalnova.at/mxlinux/packages/mx
 at_LOCATION="Vienna"
 
-be_AX_HOST=http://mirror.adct.be/mx/antix
-be_MX_HOST=http://mirror.adct.be/mx/mx
+be_AX_HOST=http://ftp.lip6.fr//pub/linux/distributions/mxlinux/packages/antix
+be_MX_HOST=http://ftp.lip6.fr/pub/linux/distributions/mxlinux/packages/mx
 be_LOCATION="Brussels"
 
 bg_AX_HOST=https://mirrors.netix.net/mx/MX-Packages/antix
@@ -66,8 +66,8 @@ es_AX_HOST=http://ftp.cica.es/mirrors/Linux/MX-Packages/antix
 es_MX_HOST=http://ftp.cica.es/mirrors/Linux/MX-Packages/mx
 es_LOCATION="Spain"
 
-fr_AX_HOST=http://mirror.ibcp.fr/pub/mxlinux/workspace/antix
-fr_MX_HOST=http://mirror.ibcp.fr/pub/mxlinux/workspace/mx
+fr_AX_HOST=http://ftp.lip6.fr//pub/linux/distributions/mxlinux/packages/antix
+fr_MX_HOST=http://ftp.lip6.fr/pub/linux/distributions/mxlinux/packages/mx
 fr_LOCATION="France"
 
 gb_AX_HOST=http://mxlinux.mirrors.uk2.net/packages/antix
@@ -102,8 +102,8 @@ it_AX_HOST=http://it.mxrepo.com/antix
 it_MX_HOST=http://it.mxrepo.com/mx
 it_LOCATION="Italy"
 
-jp_AX_HOST=https://mirrors.cat.net/mx-packages/antix
-jp_MX_HOST=https://mirrors.cat.net/mx-packages/mx
+jp_AX_HOST=https://ftp.yz.yamagata-u.ac.jp/pub/Linux/MX-Linux-Packages/antix
+jp_MX_HOST=https://ftp.yz.yamagata-u.ac.jp/pub/Linux/MX-Linux-Packages/mx
 jp_LOCATION="Japan"
 
 ke_AX_HOST=https://mirror.liquidtelecom.com/mxlinux/packages/antix
@@ -122,8 +122,8 @@ lt_AX_HOST=http://mirror.vpsnet.com/workspace/antix
 lt_MX_HOST=http://mirror.vpsnet.com/workspace/mx
 lt_LOCATION="Lithuania"
 
-my_AX_HOST=http://mirror.myren.net.my/mx-linux/antix
-my_MX_HOST=http://mirror.myren.net.my/mx-linux/mx
+my_AX_HOST=http://kartolo.sby.datautama.net.id/mx-packages/antix
+my_MX_HOST=http://kartolo.sby.datautama.net.id/mx-packages/mx
 my_LOCATION="Malaysia"
 
 nl_AX_HOST=http://nl.mxrepo.com/antix
@@ -182,8 +182,8 @@ tr_AX_HOST=http://ftp.linux.org.tr/mx/repo/antix
 tr_MX_HOST=http://ftp.linux.org.tr/mx/repo/mx
 tr_LOCATION="Turkey"
 
-tw_AX_HOST=http://ftp.yzu.edu.tw/Linux/mx-workspace/antix
-tw_MX_HOST=http://ftp.yzu.edu.tw/Linux/mx-workspace/mx
+tw_AX_HOST=http://mxlinux.cs.nctu.edu.tw/mx-workspace/antix
+tw_MX_HOST=http://mxlinux.cs.nctu.edu.tw/mx-workspace/mx
 tw_LOCATION="Taiwan"
 
 ua_AX_HOST=https://mx-packages.ip-connect.vn.ua/antix
