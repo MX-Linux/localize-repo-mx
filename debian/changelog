@@ -1,3 +1,9 @@
+localize-repo-mx (20.05.01) mx; urgency=medium
+
+  * replace mirrors that are gone with new ones that are good 
+
+ -- Dolphin Oracle <dolphinoracle@gmail.com>  Wed, 27 May 2020 22:09:12 -0400
+
 localize-repo-mx (19.10.02) mx; urgency=medium
 
   * change default nz repo to melbourne 
