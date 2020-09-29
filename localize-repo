@@ -16,7 +16,7 @@ au1_LOCATION="Melbourne"
 
 au2_AX_HOST=http://mirror.launtel.net.au/repo/mx
 au2_MX_HOST=http://mirror.launtel.net.au/repo/mx
-au2_LOCATION="Trasmania"
+au2_LOCATION="Tasmania"
 
 at_AX_HOST=http://mirror.digitalnova.at/mxlinux/packages/antix
 at_MX_HOST=http://mirror.digitalnova.at/mxlinux/packages/mx
