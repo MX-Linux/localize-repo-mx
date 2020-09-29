@@ -1,3 +1,9 @@
+localize-repo-mx (20.09.01) mx; urgency=medium
+
+  *  remove non-working repos, replace with others
+
+ -- Dolphin Oracle <dolphinoracle@gmail.com>  Mon, 28 Sep 2020 21:04:21 -0400
+
 localize-repo-mx (20.05.01) mx; urgency=medium
 
   * replace mirrors that are gone with new ones that are good 
