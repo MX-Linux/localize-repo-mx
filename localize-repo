@@ -22,8 +22,8 @@ at_AX_HOST=http://mirror.digitalnova.at/mxlinux/packages/antix
 at_MX_HOST=http://mirror.digitalnova.at/mxlinux/packages/mx
 at_LOCATION="Vienna"
 
-be_AX_HOST=http://ftp.lip6.fr//pub/linux/distributions/mxlinux/packages/antix
-be_MX_HOST=http://ftp.lip6.fr/pub/linux/distributions/mxlinux/packages/mx
+be_AX_HOST=http://mirror.tiguinet.net/mx/packages/antix
+be_MX_HOST=http://mirror.tiguinet.net/mx/packages/mx
 be_LOCATION="Brussels"
 
 bg_AX_HOST=https://mirrors.netix.net/mx/MX-Packages/antix
