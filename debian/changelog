@@ -1,3 +1,9 @@
+localize-repo-mx (20.10.01) mx; urgency=medium
+
+  * bring back nz repo 
+
+ -- Dolphin Oracle <dolphinoracle@gmail.com>  Wed, 14 Oct 2020 19:41:29 -0400
+
 localize-repo-mx (20.09.02) mx; urgency=medium
 
   * corrected typo

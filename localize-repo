@@ -134,13 +134,13 @@ ny_AX_HOST=http://mirrors.rit.edu/mxlinux/mx-packages/antix
 ny_MX_HOST=http://mirrors.rit.edu/mxlinux/mx-packages/mx
 ny_LOCATION="United States, Rochester NY"
 
-#nz_AX_HOST=http://mx.debian.nz/antix
-#nz_MX_HOST=http://mx.debian.nz/mx
-#nz_LOCATION="New Zealand"
-
-nz_AX_HOST=http://mirror.datamossa.io/mxlinux/antix
-nz_MX_HOST=http://mirror.datamossa.io/mxlinux/mx
+nz_AX_HOST=http://mx.debian.nz/antix
+nz_MX_HOST=http://mx.debian.nz/mx
 nz_LOCATION="New Zealand"
+
+#nz_AX_HOST=http://mirror.datamossa.io/mxlinux/antix
+#nz_MX_HOST=http://mirror.datamossa.io/mxlinux/mx
+#nz_LOCATION="New Zealand"
 
 ph_AX_HOST=https://mirror.pregi.net/mx-linux-packages/antix
 ph_MX_HOST=https://mirror.pregi.net/mx-linux-packages/mx
