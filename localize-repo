@@ -14,12 +14,12 @@ au1_AX_HOST=http://mirror.datamossa.io/mxlinux/antix
 au1_MX_HOST=http://mirror.datamossa.io/mxlinux/mx
 au1_LOCATION="Melbourne"
 
-au2_AX_HOST=http://mirror.launtel.net.au/repo/mx
-au2_MX_HOST=http://mirror.launtel.net.au/repo/mx
+au2_AX_HOST=http://mirror.datamossa.io/mxlinux/antix
+au2_MX_HOST=http://mirror.datamossa.io/mxlinux/mx
 au2_LOCATION="Tasmania"
 
-at_AX_HOST=http://mirror.digitalnova.at/mxlinux/packages/antix
-at_MX_HOST=http://mirror.digitalnova.at/mxlinux/packages/mx
+at_AX_HOST=http://mirror.easyname.ch/mxlinux-packages/antix
+at_MX_HOST=http://mirror.easyname.ch/mxlinux-packages/mx
 at_LOCATION="Vienna"
 
 be_AX_HOST=http://mirror.tiguinet.net/mx/packages/antix
@@ -39,7 +39,7 @@ ca_MX_HOST=http://mirror.its.dal.ca/mxlinux/mx
 ca_LOCATION="Halifax"
 
 ch_AX_HOST=http://mirror.easyname.ch/mxlinux-packages/antix
-ch_MX_HOST=http://mirror.easyname.ch/mxlinux-packages/mxlinux/mx
+ch_MX_HOST=http://mirror.easyname.ch/mxlinux-packages/mx
 ch_LOCATION="Zurich"
 
 cn_AX_HOST=https://mirrors.tuna.tsinghua.edu.cn/mxlinux/antix
@@ -90,8 +90,8 @@ hu_AX_HOST=https://quantum-mirror.hu/mirrors/pub/mx-linux/packages/antix
 hu_MX_HOST=https://quantum-mirror.hu/mirrors/pub/mx-linux/packages/mx
 hu_LOCATION="Hungary"
 
-id_AX_HOST=http://kartolo.sby.datautama.net.id/mx-packages/antix
-id_MX_HOST=http://kartolo.sby.datautama.net.id/mx-packages/mx
+id_AX_HOST=http://mirror.poliwangi.ac.id/mxlinux/antix
+id_MX_HOST=http://mirror.poliwangi.ac.id/mxlinux/mx
 id_LOCATION="Indonesia"
 
 in_AX_HOST=http://mx-pkg.mirror.net.in/MX-Linux/antix
@@ -122,8 +122,8 @@ lt_AX_HOST=http://mirror.vpsnet.com/workspace/antix
 lt_MX_HOST=http://mirror.vpsnet.com/workspace/mx
 lt_LOCATION="Lithuania"
 
-my_AX_HOST=http://mirror.myren.net.my/mx-packages/antix
-my_MX_HOST=http://mirror.myren.net.my/mx-packages/mx
+my_AX_HOST=https://mirror.kku.ac.th/mx-packages/antix
+my_MX_HOST=https://mirror.kku.ac.th/mx-packages/mx
 my_LOCATION="Malaysia"
 
 nl_AX_HOST=http://nl.mxrepo.com/antix
@@ -142,8 +142,8 @@ nz_LOCATION="New Zealand"
 #nz_MX_HOST=http://mirror.datamossa.io/mxlinux/mx
 #nz_LOCATION="New Zealand"
 
-ph_AX_HOST=https://mirror.pregi.net/mx-linux-packages/antix
-ph_MX_HOST=https://mirror.pregi.net/mx-linux-packages/mx
+ph_AX_HOST=http://mirror.rise.ph/mxlinux-pkg/antix
+ph_MX_HOST=http://mirror.rise.ph/mxlinux-pkg/mx
 ph_LOCATION="Phillipines"
 
 pk_AX_HOST=http://mx-pkg.mirror.net.in/MX-Linux/antix
@@ -198,8 +198,8 @@ uy_AX_HOST=https://espejito.fder.edu.uy/mxlinux/packages/antix
 uy_MX_HOST=https://espejito.fder.edu.uy/mxlinux/packages/mx
 uy_LOCATION="Uruguay"
 
-vn_AX_HOST=https://mirror.freedif.org/MXLinux/repo/antix
-vn_MX_HOST=https://mirror.freedif.org/MXLinux/repo/mx
+vn_AX_HOST=https://mirror.kku.ac.th/mx-packages/antix
+vn_MX_HOST=https://mirror.kku.ac.th/mx-packages/mx
 vn_LOCATION="Vietnam"
 
 za_AX_HOST=https://ftp.saix.net/pub/linux/distributions/mxlinux/antix

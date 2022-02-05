@@ -1,3 +1,9 @@
+localize-repo-mx (22.02.01) mx; urgency=medium
+
+  * update repos 
+
+ -- Dolphin Oracle <dolphinoracle@gmail.com>  Fri, 04 Feb 2022 22:52:19 -0500
+
 localize-repo-mx (20.10.01) mx; urgency=medium
 
   * bring back nz repo 
