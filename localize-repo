@@ -90,8 +90,8 @@ hu_AX_HOST=https://quantum-mirror.hu/mirrors/pub/mx-linux/packages/antix
 hu_MX_HOST=https://quantum-mirror.hu/mirrors/pub/mx-linux/packages/mx
 hu_LOCATION="Hungary"
 
-id_AX_HOST=http://mirror.poliwangi.ac.id/mxlinux/antix
-id_MX_HOST=http://mirror.poliwangi.ac.id/mxlinux/mx
+id_AX_HOST=http://kartolo.sby.datautama.net.id/mx-packages/antix
+id_MX_HOST=http://kartolo.sby.datautama.net.id/mx-packages/mx
 id_LOCATION="Indonesia"
 
 in_AX_HOST=http://mx-pkg.mirror.net.in/MX-Linux/antix
@@ -122,8 +122,8 @@ lt_AX_HOST=http://mirror.vpsnet.com/workspace/antix
 lt_MX_HOST=http://mirror.vpsnet.com/workspace/mx
 lt_LOCATION="Lithuania"
 
-my_AX_HOST=https://mirror.kku.ac.th/mx-packages/antix
-my_MX_HOST=https://mirror.kku.ac.th/mx-packages/mx
+my_AX_HOST=https://mirror.jingk.ai/mxlinux/mx-packages
+my_MX_HOST=https://mirror.jingk.ai/mxlinux/mx-packages
 my_LOCATION="Malaysia"
 
 nl_AX_HOST=http://nl.mxrepo.com/antix
@@ -162,8 +162,8 @@ se_AX_HOST=http://ftp.acc.umu.se/mirror/mxlinux.org/packages/antix
 se_MX_HOST=http://ftp.acc.umu.se/mirror/mxlinux.org/packages/mx
 se_LOCATION="Sweden"
 
-sg_AX_HOST=http://mirror.myren.net.my/mx-packages/antix
-sg_MX_HOST=http://mirror.myren.net.my/mx-packages/mx
+sg_AX_HOST=https://mirror.jingk.ai/mxlinux/mx-packages/antix
+sg_MX_HOST=https://mirror.jingk.ai/mxlinux/mx-packages/mx
 sg_LOCATION="Singapore"
 
 si_AX_HOST=https://ftp.arnes.si/mirrors/mxlinux/packages/antix
@@ -182,12 +182,12 @@ tr_AX_HOST=http://ftp.linux.org.tr/mx/repo/antix
 tr_MX_HOST=http://ftp.linux.org.tr/mx/repo/mx
 tr_LOCATION="Turkey"
 
-tw_AX_HOST=http://mxlinux.cs.nctu.edu.tw/mx-workspace/antix
-tw_MX_HOST=http://mxlinux.cs.nctu.edu.tw/mx-workspace/mx
+tw_AX_HOST=https://mxlinux.cs.nycu.edu.tw/mx-workspace/antix
+tw_MX_HOST=https://mxlinux.cs.nycu.edu.tw/mx-workspace/mx
 tw_LOCATION="Taiwan"
 
-ua_AX_HOST=https://mx-packages.ip-connect.vn.ua/antix
-ua_MX_HOST=https://mx-packages.ip-connect.vn.ua/mx
+ua_AX_HOST=https://fastmirror.pp.ua/mxlinux/antix
+ua_MX_HOST=https://fastmirror.pp.ua/mxlinux/mx
 ua_LOCATION="Ukraine"
 
 ut_AX_HOST=http://la.mxrepo.com/antix
