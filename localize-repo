@@ -191,7 +191,7 @@ ua_MX_HOST=https://fastmirror.pp.ua/mxlinux/mx
 ua_LOCATION="Ukraine"
 
 ut_AX_HOST=http://la.mxrepo.com/antix
-ut_MX_HOST=http://mxrepo.com/mx
+ut_MX_HOST=https://mxrepo.com/mx
 ut_LOCATION="Utah, USA"
 
 uy_AX_HOST=https://espejito.fder.edu.uy/mxlinux/packages/antix
