@@ -1,8 +1,8 @@
 localize-repo-mx (24.10.01) mx; urgency=medium
 
-  * fix double "/"
+  * fix double slash
 
--- Dolphin Oracle <dolphinoracle@gmail.com>  Fri, 18 Oct 2024 15:35:01 -0400
+ -- Dolphin Oracle <dolphinoracle@gmail.com>  Fri, 18 Oct 2024 15:35:01 -0400
 
 localize-repo-mx (24.05.01) mx; urgency=medium
 
