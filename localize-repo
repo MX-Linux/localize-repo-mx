@@ -262,8 +262,7 @@ main() {
               *=*)  val=${param#*=} ;;
                 *)  val="???"       ;;
         esac
-		PRETEND=false
-		VERBOSE=false
+		
         case $param in
           -ignore|i) IGNORE=$val                       ;;
       -ignore=*|i=*) IGNORE=$val                       ;;
@@ -362,7 +361,6 @@ main() {
 
     local file fcnt=0
     for file in $(find $SDIR -maxdepth 1 -name "*.list"); do
-        $echo $file
         # Use diff to see if there would be any change to the file
         local diff=$(sed -E $SED_EXPR $file | diff -q $file -)
         #echo "diff is" $diff
@@ -376,7 +374,7 @@ main() {
 
         [ "$PRETEND" ] && continue
 
-        [ "$VERBOSE" ] && qsay "File: $(basename $file)"
+        [ -z "$VERBOSE" ] && qsay "File: $(basename $file)"
         sed -i -E $SED_EXPR $file
     done
 
@@ -388,7 +386,7 @@ main() {
         fi
         [ "$PRETEND" ] && continue
         
-        [ "$VERBOSE" ] && qsay  "File:  $(basename $file)"
+        [ -z "$VERBOSE" ] && qsay  "File:  $(basename $file)"
         sed -i -E "s|(URIs:[[:space:]]+http://ftp\.)[a-z]{2}(\.debian\.org/debian/)|\1$deb_code\2|" $file
         sed -i -E "s|^(URIs:[[:space:]]*)https?://[^ ]*mx[^ ]*|\1$SOURCEHOST|Ig" $file
     done
