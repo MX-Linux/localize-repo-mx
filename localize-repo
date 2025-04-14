@@ -388,7 +388,7 @@ main() {
         
         [ -z "$VERBOSE" ] && qsay  "File:  $(basename $file)"
         sed -i -E "s|(URIs:[[:space:]]+http://ftp\.)[a-z]{2}(\.debian\.org/debian/)|\1$deb_code\2|" $file
-        sed -E "s|^(URIs: )[^\s]+(/[^/]+/)|\1$SOURCEHOST\2|" $file
+        sed -i -E "/^URIs: .*\/(mx|antix)/ s|^(URIs: )[^\s]+(/[^/]+/)|\1$SOURCEHOST\2|" $file
     done
 }
 
