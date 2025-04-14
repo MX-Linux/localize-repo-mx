@@ -382,13 +382,13 @@ main() {
         if [ "$PRETEND" -o "$VERBOSE" ]; then
         	echo "File: $(basename $file)"
         	sed -E "s|(URIs:[[:space:]]+http://ftp\.)[a-z]{2}(\.debian\.org/debian/)|\1$deb_code\2|" $file
-        	sed -E "s|^(URIs: )[^\s]+(/[^/]+/)|\1$SOURCEHOST\2|" $file
+        	sed -E "/^URIs: .*\/(mx|antix)/ s|^(URIs: )[^\s]+(/[^/]+/)|\1$SOURCEHOST\2|" $file
         fi
         [ "$PRETEND" ] && continue
         
         [ -z "$VERBOSE" ] && qsay  "File:  $(basename $file)"
         sed -i -E "s|(URIs:[[:space:]]+http://ftp\.)[a-z]{2}(\.debian\.org/debian/)|\1$deb_code\2|" $file
-        sed -i -E "s|^(URIs:[[:space:]]*)https?://[^ ]*mx[^ ]*|\1$SOURCEHOST|Ig" $file
+        sed -E "s|^(URIs: )[^\s]+(/[^/]+/)|\1$SOURCEHOST\2|" $file
     done
 }
 
