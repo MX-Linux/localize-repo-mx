@@ -410,7 +410,7 @@ assign_exprs() {
         ohost_list=$(echo $ohost_list | sed 's/\./\\\./g')
         local sed="s~($ohost_list)/~$host/~"
         #echo SED_$type=$sed
-        SOURCEHOST="$host"
+        SOURCEHOST="$host\/repo"
         SED_EXPR="$SED_EXPR -e $sed"
         SED_EXPR_P="$SED_EXPR_P -e ${sed}p"
     done
