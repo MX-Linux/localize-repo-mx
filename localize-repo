@@ -379,21 +379,16 @@ main() {
     done
 
     for file in $(find $SDIR -maxdepth 1 -name "*.sources"); do
-        # Use diff to see if there would be any change to the file
-        local diff=$(sed -E $SED_EXPR $file | diff -q $file -)
-        #echo "diff is" $diff
-        [ "$diff" ] || continue
-
-        fcnt=$((fnct + 1))
         if [ "$PRETEND" -o "$VERBOSE" ]; then
-            echo "File: $(basename $file)"
-            sed -n -E $SED_EXPR_P $file
+        	echo "File: $(basename $file)"
+        	sed -E "s|(URIs:[[:space:]]+http://ftp\.)[a-z]{2}(\.debian\.org/debian/)|\1$deb_code\2|" $file
+        	sed -E "s|^(URIs: )[^\s]+(/[^/]+/)|\1$SOURCEHOST\2|" $file
         fi
-
         [ "$PRETEND" ] && continue
-
-        [ -z "$VERBOSE" ] && qsay "File: $(basename $file)"
-        sed -i -E $SED_EXPR $file
+        
+        [ -z "$VERBOSE" ] && qsay  "File:  $(basename $file)"
+        sed -i -E "s|(URIs:[[:space:]]+http://ftp\.)[a-z]{2}(\.debian\.org/debian/)|\1$deb_code\2|" $file
+        sed -i -E "s|^(URIs:[[:space:]]*)https?://[^ ]*mx[^ ]*|\1$SOURCEHOST|Ig" $file
     done
 }
 
@@ -415,6 +410,7 @@ assign_exprs() {
         ohost_list=$(echo $ohost_list | sed 's/\./\\\./g')
         local sed="s~($ohost_list)/~$host/~"
         #echo SED_$type=$sed
+        SOURCEHOST="$host"
         SED_EXPR="$SED_EXPR -e $sed"
         SED_EXPR_P="$SED_EXPR_P -e ${sed}p"
     done
