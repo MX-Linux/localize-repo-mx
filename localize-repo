@@ -363,11 +363,12 @@ main() {
     for file in $(find $SDIR -maxdepth 1 -name "*.list"); do
         # Use diff to see if there would be any change to the file
         local diff=$(sed -E $SED_EXPR $file | diff -q $file -)
-        #echo "diff is" $diff
+        
         [ "$diff" ] || continue
 
         fcnt=$((fnct + 1))
         if [ "$PRETEND" -o "$VERBOSE" ]; then
+        	echo ""
             echo "File: $(basename $file)"
             sed -n -E $SED_EXPR_P $file
         fi
@@ -379,16 +380,26 @@ main() {
     done
 
     for file in $(find $SDIR -maxdepth 1 -name "*.sources"); do
-        if [ "$PRETEND" -o "$VERBOSE" ]; then
-        	echo "File: $(basename $file)"
-        	sed -E "s|(URIs:[[:space:]]+http://ftp\.)[a-z]{2}(\.debian\.org/debian/)|\1$deb_code\2|" $file
-        	sed -E "/^URIs: .*\/(mx|antix)/ s|^(URIs: )[^\s]+(/[^/]+/)|\1$SOURCEHOST\2|" $file
-        fi
-        [ "$PRETEND" ] && continue
+    	test1=$(sed -E "/^URIs: .*\/(mx|antix)/ s|^(URIs: )(https?://[^/]+)(/[^ ]+/)|\1$SOURCEHOST\3|" $file)
+        test2=$(sed -E "s|(URIs:[[:space:]]+http://ftp\.)[a-z]{2}(\.debian\.org/debian/)|\1$deb_code\2|" $file)
+        testfile=$(< $file)
+
+        #don't do anything if not different
+        if [ "$testfile" != "$test1" -o "$testfile" != "$test2" ]; then 
+    	
+        	if [ "$PRETEND" -o "$VERBOSE" ]; then
+        		echo ""
+        		echo "File: $(basename $file)"
+        		if [ "$testfile" != "$test1" ]; then echo "$test1"; fi
+        		if [ "$testfile" != "$test2" ]; then echo echo "$test2"; fi
+       		fi
         
-        [ -z "$VERBOSE" ] && qsay  "File:  $(basename $file)"
-        sed -i -E "s|(URIs:[[:space:]]+http://ftp\.)[a-z]{2}(\.debian\.org/debian/)|\1$deb_code\2|" $file
-        sed -i -E "/^URIs: .*\/(mx|antix)/ s|^(URIs: )[^\s]+(/[^/]+/)|\1$SOURCEHOST\2|" $file
+        	[ "$PRETEND" ] && continue
+        
+        	[ -z "$VERBOSE" ] && qsay  "File:  $(basename $file)"
+        	sed -i -E "s|(URIs:[[:space:]]+http://ftp\.)[a-z]{2}(\.debian\.org/debian/)|\1$deb_code\2|" $file
+        	sed -i -E "/^URIs: .*\/(mx|antix)/ s|^(URIs: )(https?://[^/]+)(/[^ ]+/)|\1$SOURCEHOST\3|" $file
+        fi
     done
 }
 
