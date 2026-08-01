@@ -1,3 +1,9 @@
+localize-repo-mx (26.08.01) mx; urgency=medium
+
+  * change default United Kingdom mirror
+
+ -- Dolphin Oracle <dolphinoracle@gmail.com>  Sat, 01 Aug 2026 09:25:29 -0400
+
 localize-repo-mx (26.06.01) mx; urgency=medium
 
   * change brazil default repo
