@@ -1,3 +1,9 @@
+localize-repo-mx (26.10.01) mx; urgency=medium
+
+  * replace non-working mirrors with working mirrors
+
+ -- Dolphin Oracle <dolphinoracle@gmail.com>  Sun, 04 Oct 2026 08:52:19 -0400
+
 localize-repo-mx (26.08.01) mx; urgency=medium
 
   * change default United Kingdom mirror

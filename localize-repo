@@ -10,16 +10,16 @@ HOST_PREFIXES="$MIRROR_PREFIXES old_us"
 HOST_TYPES="AX MX"
 US_HOST_LIST="la ut ny"
 
-au1_AX_HOST=http://mirror.datamossa.io/mxlinux/antix
-au1_MX_HOST=http://mirror.datamossa.io/mxlinux/mx
+au1_AX_HOST=https://mirror.aarnet.edu.au/pub/mxlinux/packages/antix
+au1_MX_HOST=https://mirror.aarnet.edu.au/pub/mxlinux/packages/mx
 au1_LOCATION="Melbourne"
 
-au2_AX_HOST=http://mirror.datamossa.io/mxlinux/antix
-au2_MX_HOST=http://mirror.datamossa.io/mxlinux/mx
+au2_AX_HOST=https://mirror.aarnet.edu.au/pub/mxlinux/packages/antix
+au2_MX_HOST=https://mirror.aarnet.edu.au/pub/mxlinux/packages/mx
 au2_LOCATION="Tasmania"
 
-at_AX_HOST=http://mirror.easyname.ch/mxlinux-packages/antix
-at_MX_HOST=http://mirror.easyname.ch/mxlinux-packages/mx
+at_AX_HOST=https://mirror.aarnet.edu.au/pub/mxlinux/packages/antix
+at_MX_HOST=https://mirror.aarnet.edu.au/pub/mxlinux/packages/mx
 at_LOCATION="Vienna"
 
 be_AX_HOST=http://ftp.halifax.rwth-aachen.de/mxlinux/packages/antix
@@ -34,12 +34,12 @@ br_AX_HOST=http://sft.if.usp.br/mx-workspace/antix
 br_MX_HOST=http://sft.if.usp.br/mx-workspace/mx
 br_LOCATION="Manaus"
 
-ca_AX_HOST=http://mirror.its.dal.ca/mxlinux/antix
-ca_MX_HOST=http://mirror.its.dal.ca/mxlinux/mx
+ca_AX_HOST=https://mirror.csclub.uwaterloo.ca/mxlinux/antix
+ca_MX_HOST=https://mirror.csclub.uwaterloo.ca/mxlinux/mx
 ca_LOCATION="Halifax"
 
-ch_AX_HOST=http://mirror.easyname.ch/mxlinux-packages/antix
-ch_MX_HOST=http://mirror.easyname.ch/mxlinux-packages/mx
+ch_AX_HOST=https://mx-linux.ethz.ch/mx-packages/antix
+ch_MX_HOST=https://mx-linux.ethz.ch/mx-packages/mx
 ch_LOCATION="Zurich"
 
 cn_AX_HOST=https://mirrors.tuna.tsinghua.edu.cn/mxlinux/antix
@@ -54,8 +54,8 @@ de_AX_HOST=http://ftp.halifax.rwth-aachen.de/mxlinux/packages/antix
 de_MX_HOST=http://ftp.halifax.rwth-aachen.de/mxlinux/packages/mx
 de_LOCATION="Germany"
 
-dk_AX_HOST=http://mirrors.dotsrc.org/mx-packages/antix
-dk_MX_HOST=http://mirrors.dotsrc.org/mx-packages/mx
+dk_AX_HOST=https://mirror.one.com/mx-packages/antix
+dk_MX_HOST=https://mirror.one.com/mx-packages/mx
 dk_LOCATION="Denmark"
 
 ec_AX_HOST=http://mirror.cedia.org.ec/mx-workspace/antix
@@ -70,12 +70,12 @@ fr_AX_HOST=http://ftp.lip6.fr/pub/linux/distributions/mxlinux/packages/antix
 fr_MX_HOST=http://ftp.lip6.fr/pub/linux/distributions/mxlinux/packages/mx
 fr_LOCATION="France"
 
-gb_AX_HOST=https://gb.mirrors.cicku.me/mxlinux/packages/antix
-gb_MX_HOST=https://gb.mirrors.cicku.me/mxlinux/packages/mx
+gb_AX_HOST=https://mirrors.ukfast.co.uk/sites/MX_antiX_packages/antix
+gb_MX_HOST=https://mirrors.ukfast.co.uk/sites/MX_antiX_packages/mx
 gb_LOCATION="United Kingdom"
 
-ge_AX_HOST=https://mxlinux.grena.ge/mxlinux/antix
-ge_MX_HOST=https://mxlinux.grena.ge/mxlinux/mx
+ge_AX_HOST=https://mirror.verinomi.com/mxlinux/packages/antix
+ge_MX_HOST=https://mirror.verinomi.com/mxlinux/packages/mx
 ge_LOCATION="Georgia" 
 
 gr_AX_HOST=http://ftp.cc.uoc.gr/mirrors/linux/mx/antix
@@ -131,8 +131,8 @@ nl_MX_HOST=http://nl.mxrepo.com/mx
 nl_LOCATION="The Netherlands"
 
 ny_AX_HOST=http://mirror.math.princeton.edu/pub/mxlinux/antix
-ny_MX_HOST=http://mirror.math.princeton.edu/pub/mxlinux/mx
-ny_LOCATION="United States, Princeton NJ"
+ny_MX_HOST=https://mxrepo.com/mx
+ny_LOCATION="United States, NE"
 
 nz_AX_HOST=http://mx.debian.nz/antix
 nz_MX_HOST=http://mx.debian.nz/mx
@@ -142,8 +142,8 @@ nz_LOCATION="New Zealand"
 #nz_MX_HOST=http://mirror.datamossa.io/mxlinux/mx
 #nz_LOCATION="New Zealand"
 
-ph_AX_HOST=http://mirror.rise.ph/mxlinux-pkg/antix
-ph_MX_HOST=http://mirror.rise.ph/mxlinux-pkg/mx
+ph_AX_HOST=https://mirror-hk.koddos.net/mxlinux/antix
+ph_MX_HOST=https://mirror-hk.koddos.net/mxlinux/mx
 ph_LOCATION="Phillipines"
 
 pk_AX_HOST=http://mirror.dc.uz/mxlinux/antix
@@ -166,8 +166,8 @@ sg_AX_HOST=https://mirror.jingk.ai/mxlinux/mx-packages/antix
 sg_MX_HOST=https://mirror.jingk.ai/mxlinux/mx-packages/mx
 sg_LOCATION="Singapore"
 
-si_AX_HOST=https://ftp.arnes.si/mirrors/mxlinux/packages/antix
-si_MX_HOST=https://ftp.arnes.si/mirrors/mxlinux/packages/mx
+si_AX_HOST=https://mx-linux.ethz.ch/mx-packages/antix
+si_MX_HOST=https://mx-linux.ethz.ch/mx-packages/mx
 si_LOCATION="Slovenia"
 
 sk_AX_HOST=http://tux.rainside.sk/mxlinux/antix
@@ -186,21 +186,21 @@ tw_AX_HOST=https://mxlinux.cs.nycu.edu.tw/mx-workspace/antix
 tw_MX_HOST=https://mxlinux.cs.nycu.edu.tw/mx-workspace/mx
 tw_LOCATION="Taiwan"
 
-ua_AX_HOST=https://distrohub.kyiv.ua/mxlinux/antix
-ua_MX_HOST=https://distrohub.kyiv.ua/mxlinux/mx
+ua_AX_HOST=https://mx-packages.ip-connect.vn.ua/antix
+ua_MX_HOST=https://mx-packages.ip-connect.vn.ua/mx
 ua_LOCATION="Ukraine"
 
 ut_AX_HOST=http://la.mxrepo.com/antix
-ut_MX_HOST=https://mxrepo.com/mx
+ut_MX_HOST=https://la.mxrepo.com/mx
 ut_LOCATION="Utah, USA"
 
 uy_AX_HOST=http://mirror.netlinux.cl/mxlinux/antix
 uy_MX_HOST=http://mirror.netlinux.cl/mxlinux/mx
 uy_LOCATION="Chile"
 
-vn_AX_HOST=https://mirror.meowsmp.net/mxlinux/packages/antix
-vn_MX_HOST=https://mirror.meowsmp.net/mxlinux/packages/mx
-vn_LOCATION="Vietnam"
+#vn_AX_HOST=https://mirror.meowsmp.net/mxlinux/packages/antix
+#vn_MX_HOST=https://mirror.meowsmp.net/mxlinux/packages/mx
+#vn_LOCATION="Vietnam"
 
 za_AX_HOST=https://ftp.saix.net/pub/linux/distributions/mxlinux/antix
 za_MX_HOST=https://ftp.saix.net/pub/linux/distributions/mxlinux/mx
@@ -786,7 +786,7 @@ get_codes() {
                      Asia/Singapore) deb_code=sg ; mx_order=sg,my,id,vn,th,ph,hk,in,tw,cn,pk,jp,kz,au1,nz,au2,ge,ke,ru,za,tr,ua,gr,bg,lt,pl,hu,se,sk,at,si,cz,de,dk,it,ch,nl,be,fr,gb,es,la,ut,ca,ny,uy,br,ec ;;
                        Asia/Irkutsk) deb_code=ru ; mx_order=kz,cn,jp,tw,hk,in,ru,th,pk,ph,ge,vn,ua,lt,se,pl,my,dk,tr,sg,de,hu,sk,cz,bg,at,si,nl,gr,be,ch,id,gb,it,fr,es,ke,ca,ut,la,ny,nz,au1,au2,za,ec,br,uy ;;
                     Asia/Phnom_Penh) deb_code=sg ; mx_order=vn,th,my,sg,hk,ph,id,in,tw,cn,pk,jp,kz,ge,nz,au1,au2,ru,ke,ua,tr,lt,bg,gr,pl,se,hu,sk,at,cz,de,dk,si,za,it,ch,nl,be,fr,gb,es,la,ut,ca,ny,br,uy,ec ;;
-                   Asia/Ho_Chi_Minh) deb_code=sg ; mx_order=vn,th,my,sg,hk,ph,id,tw,in,cn,jp,pk,kz,nz,au1,ge,au2,ru,ke,ua,tr,lt,bg,gr,pl,se,hu,sk,at,cz,de,dk,si,za,it,ch,nl,be,fr,gb,es,la,ut,ca,ny,br,uy,ec ;;
+                   Asia/Ho_Chi_Minh) deb_code=sg ; mx_order=hk,th,my,sg,hk,ph,id,tw,in,cn,jp,pk,kz,nz,au1,ge,au2,ru,ke,ua,tr,lt,bg,gr,pl,se,hu,sk,at,cz,de,dk,si,za,it,ch,nl,be,fr,gb,es,la,ut,ca,ny,br,uy,ec ;;
                        Asia/Jakarta) deb_code=sg ; mx_order=id,sg,my,vn,th,ph,hk,in,tw,cn,au1,nz,pk,au2,jp,kz,ke,ge,za,ru,tr,ua,gr,bg,lt,pl,hu,sk,se,at,si,cz,de,it,dk,ch,nl,be,fr,gb,es,la,uy,ut,br,ca,ny,ec ;;
                    Asia/Ulaanbaatar) deb_code=ru ; mx_order=cn,kz,tw,hk,jp,in,th,ph,vn,pk,ru,ge,my,sg,ua,lt,se,pl,id,tr,dk,hu,de,bg,sk,cz,at,gr,si,nl,be,ch,gb,it,fr,es,ke,nz,ca,ut,la,au1,ny,au2,za,ec,br,uy ;;
                      Asia/Pontianak) deb_code=sg ; mx_order=sg,id,my,vn,th,ph,hk,tw,in,cn,jp,pk,au1,nz,kz,au2,ge,ke,ru,za,ua,tr,lt,gr,bg,pl,hu,se,sk,at,cz,si,de,dk,it,ch,nl,be,fr,gb,es,la,ut,ca,ny,uy,br,ec ;;
